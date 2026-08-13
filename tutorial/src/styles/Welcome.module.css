@@ -1,0 +1,15 @@
+.myHeader{
+    border-radius: 15px;
+    padding: 15px; 
+    margin: 10px;
+    color: black;
+}
+
+.isAdmin{
+    background-color: green;
+    color: white;
+}
+
+.notAdmin{
+    background-color: lightblue;
+}

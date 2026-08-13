@@ -1,0 +1,46 @@
+.componentContainor button {
+    background: none;
+    border: none;
+}
+
+.lm{
+    margin-left: 50px;
+}
+.rm{
+    margin-right: 50px;
+}
+.bm{
+    margin-bottom: 50px;
+}
+.bmx{
+    margin-bottom: 100px;
+}
+
+.borderBlue{
+    border-color: rgb(6, 94, 153);
+}
+.itemWidth{
+    display: inline-block;
+    min-width: 300px;
+}
+
+.itemCompete{
+    color: grey;
+    text-decoration: line-through;
+}
+
+.textInput {
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    background: transparent;
+    outline: none;
+    font: inherit;
+    color: inherit;
+}
+
+/* Show the input when it is focused */
+.textInput:focus,
+.textInput:placeholder-shown {
+    border: 1px solid  white;
+    background: #333;
+}
